@@ -1,0 +1,164 @@
+.futura-toolbar { 
+  background-color: #9BCBF6;
+}
+
+.futura-light {
+  background-color: #F3F9FE;
+}
+
+.App {
+  margin: 10px 10%
+}
+
+.App > main {
+  margin: 10px 10%;
+}
+
+.siteLogo * {
+  display: inline-block;
+}
+
+.siteLogoImg {
+  width: 100px;
+}
+
+.pageHeader {
+  position: relative;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.pageTitle {
+  font-family: 'Arvo', serif;
+  font-size: 4em;
+}
+
+.pageSection {
+  font-family: 'Prompt', sans-serif;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.notificationsContainer {
+  z-index: 1;
+}
+
+.breadcrumb {
+  margin: 0px 20px;
+}
+
+.authForms {
+  text-align: right;
+}
+
+.searchFormBar {
+  width: 35%;
+}
+
+.paginationPage {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0px 4px;
+  border: 1px solid;
+}
+
+.selectedPage {
+  background-color:blueviolet;  
+}
+
+.paginationPage a {
+  text-decoration: none;
+}
+
+#loginForm {
+  padding: 10px;
+}
+
+#loginForm input {
+  display: block;
+  width: 150px;
+}
+
+.passwordForgotLink {
+  font-size: 1em;
+  display: block;
+}
+
+.mainPageContent {
+  text-align: left;
+}
+
+.blogDetails img {
+  max-width: 100%;
+}
+
+.draftWrapperStyle, .draftEditorStyle, .draftToolbarStyle {
+  border: 1px solid #aaa;
+}
+
+.draftWrapperStyle, .draftEditorStyle {
+  padding: 1rem;
+}
+
+.commentsList {
+  margin-top: 40px;
+}
+
+.blogListPagination, .commentsListPagination {
+  text-align: center;
+}
+
+.blogTagList {
+  padding-inline-start: 0px;
+}
+
+.blogTag { 
+  background-color: #F3F9FE;
+  user-select: none;
+  font-size: 0.9em;
+  padding: 40px;
+  border: 1px solid;
+  border-radius: 15px 15px 15px 0px;
+  display: inline-block;
+  position: relative;
+}
+
+.blogTagDeleteButton {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.blogTagDeleteButton:hover {
+  cursor: pointer;
+  color: #dc3545;
+}
+
+.pageFooter {
+  position: relative;
+  text-align: right;
+  margin-top: 2%;
+}
+
+@media(max-width: 980px) {
+  .siteLogoImg.logo1 {
+    display: none;
+  }
+}
+
+@media(max-width: 700px) {
+  .App, main {
+    margin: 10px 2%;
+  }
+}
+
+@media(max-width: 600px) {
+  .searchFormBar {
+    width: 100%;
+  }
+}
